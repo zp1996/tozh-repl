@@ -1,0 +1,26 @@
+{
+  "name": "tozh-repl",
+  "version": "0.0.1",
+  "description": "\"翻译repl\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zp1996/tozh-repl.git"
+  },
+  "keywords": [
+    "repl",
+    "tozh"
+  ],
+  "author": "zp1996",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zp1996/tozh-repl/issues"
+  },
+  "homepage": "https://github.com/zp1996/tozh-repl#readme",
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
+}
