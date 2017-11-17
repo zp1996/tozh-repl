@@ -4,7 +4,12 @@
   "description": "\"翻译repl\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js lib test",
+    "fix": "eslint --fix .js lib test"
+  },
+  "pre-commit": {
+    "run": ["lint"]
   },
   "repository": {
     "type": "git",
@@ -22,5 +27,10 @@
   "homepage": "https://github.com/zp1996/tozh-repl#readme",
   "dependencies": {
     "colors": "^1.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-egg": "^5.1.1",
+    "pre-commit": "^1.2.2"
   }
 }
